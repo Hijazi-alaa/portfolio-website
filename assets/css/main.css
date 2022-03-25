@@ -250,6 +250,11 @@ body {
     color: #000000;
 }
 
+.black-bg {
+    background-color: #000000;
+    color: #ffffff;
+}
+
 body,
 input,
 select,
@@ -258,11 +263,6 @@ textarea {
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.65;
-}
-
-.project-link {
-    display: inline;
-    margin-right: 32px;
 }
 
 a {
@@ -322,6 +322,7 @@ h1 {
     font-size: 3.5rem;
     line-height: 1.2;
     font-family: 'Lobster', cursive;
+    color: #ffffff;
 }
 
 h2 {
@@ -451,8 +452,6 @@ b {
     color: #000000;
 }
 
-h1,
-h2,
 h3,
 h4,
 h5,
@@ -2360,6 +2359,12 @@ input[type="button"].primary:active,
 button.primary:active,
 .button.primary:active {
     background-color: #1ebdd1;
+}
+
+.solo {
+    background-color: #ffffff;
+    box-shadow: inset 0 0 0 1px rgb(0 0 0 / 20%);
+    color: #000000 !important;
 }
 
 /* Form */
@@ -6550,7 +6555,7 @@ body.is-preload .gallery.onload-fade-in article .image img {
 .gallery.style1 .button {
     background-color: transparent;
     box-shadow: inset 0 0 0 1px white;
-    color: #ffffff !important;
+    color: #000000 !important;
 }
 
 .gallery.style1 input[type="submit"]:hover,
@@ -8782,4 +8787,17 @@ body.is-preload .items.onload-fade-in>*>.inner {
 
 #wrapper.divided>.invert:first-child {
     box-shadow: none !important;
+}
+
+.project-link {
+    display: inline;
+    margin-right: 32px;
+}
+
+.b-link {
+    color: #ffffff;
+}
+
+.terminal {
+    object-fit: none !important;
 }
