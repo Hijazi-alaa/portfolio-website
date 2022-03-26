@@ -8801,3 +8801,7 @@ body.is-preload .items.onload-fade-in>*>.inner {
 .terminal {
     object-fit: none !important;
 }
+
+.midway {
+    height: 28vh;
+}
